@@ -1,6 +1,5 @@
 ﻿using EFCoreCrud.Models.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace EFCoreCrud.Data
 {

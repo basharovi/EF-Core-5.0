@@ -2,10 +2,10 @@
 
 namespace EFCoreCrud.Models.Entities
 {
-    public class Department
+    public class Lab
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public IList<Lab> Labs { get; set; }
+        public string LabNo { get; set; }
+        public IList<Department> Departments { get; set; }
     }
 }

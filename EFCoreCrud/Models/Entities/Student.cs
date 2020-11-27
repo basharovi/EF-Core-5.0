@@ -7,7 +7,6 @@ namespace EFCoreCrud.Models.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string RegistrationNo { get; set; }
-        public Department Department { get; set; }
-        public IList<Enrollment> Enrollments { get; set; }
+        public IList<Course> Courses { get; set; }
     }
 }

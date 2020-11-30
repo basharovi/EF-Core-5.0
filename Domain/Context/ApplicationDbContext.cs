@@ -1,4 +1,4 @@
-﻿using EFCoreCrud.Models.Entities;
+﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreCrud.Data

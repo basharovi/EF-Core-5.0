@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using DataAccessLayer;
+using System.Collections.Generic;
 
 namespace Domain.Entities
 {
-    public class Course
+    public class Course : IEntity<int>
     {
         public int Id { get; set; }
         public string Name { get; set; }

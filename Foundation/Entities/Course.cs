@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using DataAccessLayer;
+using System.Collections.Generic;
 
 namespace Foundation.Entities
 {

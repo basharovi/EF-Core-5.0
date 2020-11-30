@@ -1,7 +1,6 @@
-﻿using DataAccessLayer;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Domain.Entities
+namespace Foundation.Entities
 {
     public class Department : IEntity<int>
     {

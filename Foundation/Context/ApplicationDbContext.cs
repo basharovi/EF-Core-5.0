@@ -1,7 +1,7 @@
-﻿using Domain.Entities;
+﻿using Foundation.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFCoreCrud.Data
+namespace Foundation.Context
 {
     public class ApplicationDbContext : DbContext
     {
